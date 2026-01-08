@@ -1,0 +1,11 @@
+"url,label
+http://google.com,benign
+https://facebook.com,benign
+https://amazon.in,benign
+https://microsoft.com,benign
+http://login-google.verify-user.com,phishing
+http://secure-paypal-update.net,phishing
+http://update-account-info-paypal.com,phishing
+http://bank-login-confirm.ru,malware
+http://free-movie-download.xyz,malware
+http://win-prize-now.click,phishing" | Set-Content -Encoding UTF8 data\urls.csv
